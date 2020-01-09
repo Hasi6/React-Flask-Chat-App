@@ -1,7 +1,8 @@
 import React from "react";
+import HomePage from "./HomePage/HomePage";
 
 const App = () => {
-  return <div>Flask React Chat App</div>;
+  return <HomePage />;
 };
 
 export default App;
