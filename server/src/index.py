@@ -1,6 +1,5 @@
 from flask import Flask, jsonify;
 from flask_socketio import SocketIO, send
-from flask_cors import CORS,cross_origin
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'mysecret'
